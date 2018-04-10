@@ -43,7 +43,7 @@ class EarthquakesContainer extends Component {
             <p>
                 <strong>This app was created based on Matthew Thorry work.</strong> 
                 Checkout {' '}
-                <a href="#" 
+                <a href="https://github.com/saulobr88/earthquakes-mapper" 
                 target="_blank" rel="noopener noreferrer">My GitHub repo
                 </a> for more information about it.
                 Feel free to contact me using {' '}

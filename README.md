@@ -12,8 +12,8 @@ Each earthquake data point the map receives is plotted on the map based on its c
 Services holds the `fetch` requests to the USGS API. There `fetchQuakes` (which returns all earthquakes for last 30 days) and `searchQuakes` (which returns all earthquakes that meet user-specified criteria) functions. The results of the fetch requests are stored in the `quakes` state in the `EarthquakesContainer`. 
 
 ### Screenshots
-![Default page](./screenshots/01-defaultView)
-![Search Result](./screenshots/02-magnitude7)
+![Default page](./screenshots/01-defaultView.png)
+![Search Result](./screenshots/02-magnitude7.png)
 
 ### Original Autor
 [Matthew Thorry](https://github.com/mthorry)
