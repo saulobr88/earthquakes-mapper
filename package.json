@@ -13,7 +13,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy" : "npm run build && cp .htaccess.example build/.htaccess && netlify deploy"
   },
   "devDependencies": {
     "google-maps": "^3.2.1"

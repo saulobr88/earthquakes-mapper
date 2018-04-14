@@ -27,7 +27,7 @@ export default class EarthquakesMap extends Component {
             this.map = new maps.Map(node, mapConfig);
             var heatmapData = [];
 
-            this.props.quakes.map( (quake) => {
+            this.props.quakes.forEach( (quake) => {
                 let mag;
                 if (quake.properties.mag < 5) { mag = 3 } 
                 else if (quake.properties.mag > 6) {mag = 10} 

@@ -29,7 +29,7 @@ class EarthquakesContainer extends Component {
     render() {
         return (
           <div className="EarthquakesContainer">
-            <h1>🌐 Earthquake Mapper</h1>
+            <h1><span role="img" aria-label="Globe">🌐</span> Earthquake Mapper</h1> 
             <div className="wrapper">
               <EarthquakesForm onFilter={this.onFilter}/>
               <Route path="/" 
@@ -42,7 +42,7 @@ class EarthquakesContainer extends Component {
             <br/>
             <p>
                 <strong>This app was created based on Matthew Thorry work.</strong> 
-                Checkout {' '}
+                {' '} Checkout {' '}
                 <a href="https://github.com/saulobr88/earthquakes-mapper" 
                 target="_blank" rel="noopener noreferrer">My GitHub repo
                 </a> for more information about it.
